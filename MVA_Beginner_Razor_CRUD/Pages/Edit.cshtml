@@ -1,0 +1,28 @@
+﻿@page "{id:int}"
+@model MVA_Beginner_Razor_CRUD.Pages.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit Customer - @Model.customer.Id</h2>
+<form method="post">
+    <div asp-validation-summary="All">
+        <input asp-for="customer.Id" type="hidden"/>
+        <div>
+            <label asp-for="customer.Name"></label>
+            <div>
+                <input asp-for="customer.Name" />
+                <span asp-validation-for="customer.Name"></span>
+            </div>
+            <button type="submit">Update</button>
+        </div>
+    </div>
+
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+
+
+
