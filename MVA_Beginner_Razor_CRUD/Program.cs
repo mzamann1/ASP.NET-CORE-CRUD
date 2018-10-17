@@ -19,6 +19,7 @@ namespace MVA_Beginner_Razor_CRUD
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseApplicationInsights()
                 .UseStartup<Startup>();
     }
 }

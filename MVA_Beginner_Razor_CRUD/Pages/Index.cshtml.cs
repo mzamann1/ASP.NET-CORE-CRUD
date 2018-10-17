@@ -18,6 +18,8 @@ namespace MVA_Beginner_Razor_CRUD.Pages
 
         public IList<Customer> Customers { get; private set; }
 
+        [TempData]
+        public string Message { get; set; }
 
         public async Task OnGetAsync()
         {

@@ -16,6 +16,8 @@ namespace MVA_Beginner_Razor_CRUD.Pages
         {
             _db = db;
         }
+        [TempData]
+        public string Message { get; set; }
 
         [BindProperty]
         public Customer customer { get; set; }
@@ -41,6 +43,7 @@ namespace MVA_Beginner_Razor_CRUD.Pages
             try
             {
                 await _db.SaveChangesAsync();
+                Message = $"customer {customer.Name} updated";
             }
             catch (DbUpdateConcurrencyException e)
             {
