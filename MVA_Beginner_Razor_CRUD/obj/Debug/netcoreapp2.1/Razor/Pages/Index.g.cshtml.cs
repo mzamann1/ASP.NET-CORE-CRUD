@@ -62,7 +62,7 @@ using MVA_Beginner_Razor_CRUD;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(73, 768, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "080a20f323a746b888bc35b22b69b634", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "477ff5aaf83a4afbab4e5a20c1137aa4", async() => {
                 BeginContext(93, 11, true);
                 WriteLiteral("\r\n\r\n   <h3>");
                 EndContext();
@@ -106,7 +106,7 @@ using MVA_Beginner_Razor_CRUD;
                 WriteLiteral("</td>\r\n                <td>\r\n                    ");
                 EndContext();
                 BeginContext(514, 57, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cd17beee05ed4196b23c3a0df3a97b2e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8aaf2d958725432ebca752b99723e73b", async() => {
                     BeginContext(563, 4, true);
                     WriteLiteral("Edit");
                     EndContext();
@@ -141,7 +141,7 @@ using MVA_Beginner_Razor_CRUD;
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(593, 91, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a936f246ab28409ea47a35d88f04394a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "38a49608e994407fbfb79ef31e61eb4d", async() => {
                     BeginContext(669, 6, true);
                     WriteLiteral("Delete");
                     EndContext();
@@ -186,7 +186,7 @@ using MVA_Beginner_Razor_CRUD;
                 WriteLiteral("            \r\n\r\n        </tbody>\r\n\r\n    </table>\r\n    ");
                 EndContext();
                 BeginContext(799, 33, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c9a8726842054ecb9c6a931215780a8e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bfd050a7e2b145518cbebee00daa1b8b", async() => {
                     BeginContext(822, 6, true);
                     WriteLiteral("Create");
                     EndContext();
